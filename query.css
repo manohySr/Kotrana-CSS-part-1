@@ -1,0 +1,132 @@
+/* big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  /* small tablet to big tablet:  768 to 1023px */
+  @media only screen and (max-width: 1023px) {
+    /* section header */
+    nav img {
+      height: 80px;
+    }
+    .main-nav li {
+      margin-left: 10px;
+    }
+    .heading-text {
+      width: 80%;
+      top: 35%;
+    }
+    h1 {
+      font-size: 150%;
+    }
+  }
+  /* small phone to small tablet: from 481 to 767px */
+  @media only screen and (max-width: 767px) {
+    /* section header */
+    nav img {
+      height: 80px;
+    }
+    .main-nav {
+      display: none;
+    }
+    .main-nav li {
+      margin-left: 10px;
+    }
+    .heading-text {
+      width: 80%;
+      top: 35%;
+    }
+    h1 {
+      font-size: 150%;
+    }
+    /* section grid-text */
+    h2 {
+      font-size: 150%;
+    }
+    .text {
+      font-size: 90%;
+    }
+    /* section contact */
+    .input-row {
+      width: 70%;
+    }
+    .input-row .label {
+      font-size: 90%;
+    }
+  }
+  /* small phone: from 0 to 480px */
+  @media only screen and (max-width: 480px) {
+    h2 {
+      font-size: 140%;
+    }
+    h1 {
+      font-size: 100%;
+    }
+    /* section header */
+    .main-nav {
+      display: none;
+    }
+    .heading-text {
+      top: 25%;
+    }
+    .btn-full {
+      padding: 10px 5px;
+    }
+    .btn-ghost {
+      padding: 10px 5px;
+    }
+    /* section step-box */
+    .container-step {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .step {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      font-size: 80%;
+    }
+    .step-number {
+      padding: 10px 12px;
+      width: 40px;
+      height: 40px;
+    }
+    .step-text {
+      padding-left: 10px;
+      width: 100%;
+      margin-top: 10px;
+    }
+    /* section avis */
+    .avis {
+      margin-bottom: 30px;
+    }
+    .avis-text {
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+    /* section contact */
+    .input-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    .input-row .label {
+      width: 100%;
+      padding-left: 9%;
+      margin-bottom: 10px;
+    }
+    .input-row .input {
+      width: 80%;
+    }
+    .input-row:last-child {
+      padding-left: 0;
+    }
+    .input-row:last-child input {
+      width: 80%;
+    }
+  }
