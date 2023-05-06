@@ -1,6 +1,8 @@
 # Kotrana-CSS-part-1
 Practicing HTML and CSS
 This is the link: [https://preeminent-rolypoly-44b73e.netlify.app]
+
+
 This is a preview xD
 ![image](https://user-images.githubusercontent.com/86122918/233657697-1e58da72-80dd-4a28-a051-f77e6ccc2a4f.png)
 
